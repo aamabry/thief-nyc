@@ -3,7 +3,33 @@ body {
     color: aliceblue;
 }
 
+.btn {
+    color: aliceblue;
+}
 
-.offcanvas-body {
-    color: black;
+.btn-close {
+    background: black;
+    color: white;
+}
+
+.offcanvas {
+    background: black;
+    transition: all 1s ease-in-out;
+}
+
+.offcanvas-body a {
+    color: white;
+    font-size: 24px;
+    text-decoration: none;
+   
+}
+
+.offcanvas-body ul{
+    list-style: none;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.offcanvas-body li {
+    margin: 20px;
 }
