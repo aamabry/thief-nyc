@@ -1,6 +1,8 @@
 body {
     background: black;
     color: aliceblue;
+    font-family: 'Capture it', sans-serif;
+
 }
 
 .btn {
@@ -33,3 +35,4 @@ body {
 .offcanvas-body li {
     margin: 20px;
 }
+
