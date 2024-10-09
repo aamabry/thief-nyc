@@ -17,7 +17,7 @@ body {
 .offcanvas {
     background: black;
     transition: all 1s ease-in-out;
-    background-image: url("./images/FW_Folded_Paper_03.png");
+    background-image: url("./texture/FW_Folded_Paper_03.png");
     background-size: 490px;
 }
 
