@@ -27,8 +27,6 @@ body {
     text-decoration: none;
 }
 
-
-
 .offcanvas-body ul{
     list-style: none;
     text-align: center;
@@ -44,3 +42,34 @@ body {
     padding: 0;
 }
 
+.christmas-experience {
+    padding-top: 60px;
+    text-align: center;
+    color: #ffed00;
+}
+
+.christmas-ghosts {
+    margin: 200px 60px 70px;
+}
+
+.buzz-from-the-past {
+    text-align: center;
+    color: #ffed00;
+}
+
+.buzz-from-the-past h2 {
+    font-size: 14px;
+    background: #a1af01;
+}
+
+.faqs {
+    background-image: url(./miracle-images/faqs-background.png);
+    color: #ffed00;
+    text-align: center;
+}
+
+.faqs h2 {
+    background: black;
+    font-size: 18px;
+    text-align: center;
+}
