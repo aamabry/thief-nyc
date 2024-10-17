@@ -43,33 +43,103 @@ body {
 }
 
 .christmas-experience {
-    padding-top: 60px;
     text-align: center;
-    color: #ffed00;
+    color: #f7f7f2;
+
+    margin: 50px 10px 75px;
+    padding: 20px;
 }
 
-.christmas-ghosts {
-    margin: 200px 60px 70px;
+.past {
+    margin: 200px 0 0 0;
+}
+
+.present {
+     margin: 200px 100px 0; 
+}
+.future {
+    margin: 200px 0 0 0;
 }
 
 .buzz-from-the-past {
-    text-align: center;
     color: #ffed00;
+    margin: 20px;
+}
+
+.buzz-from-the-past h1 {
+    margin: 10px ;
+    padding: 10px;
 }
 
 .buzz-from-the-past h2 {
     font-size: 14px;
-    background: #a1af01;
+    background: #88A201;
+    width: 200px;
+    height: 200px;
+    margin: 10px ;
+    padding: 10px;
+}
+
+.buzz-from-the-past p {
+    background: black;
+    width: 175px;
+    height: 100px;
+    font-size: 14px;
+    margin: -130px 10px 20px 24px;
+    padding: 10px;
 }
 
 .faqs {
     background-image: url(./miracle-images/faqs-background.png);
-    color: #ffed00;
-    text-align: center;
+    width: 1116px;
+    height: 627.438px;
+    margin: 20px;
+    padding: 70px;
 }
 
-.faqs h2 {
+.faqs h1 {
+    font-size: 55px;
+    margin: 0 0 150px;
+}
+
+.faqs button {
     background: black;
     font-size: 18px;
-    text-align: center;
+    width: 400px;
+    height: 100px;
+    color: #ffed00;
 }
+
+.drinks-one {
+margin: 50px;
+padding: 0;
+}
+
+.drinks-one img {
+    border-radius: 5px;
+}
+
+.drinks-two {
+    margin: 50px;
+    padding: 30px;
+    width: 1000px;
+   height: 600px;
+
+}
+
+.drinks-three {
+    margin: 50px;
+    padding: 0;
+    }
+
+    .drinks-three img {
+        border-radius: 5px;
+    }
+
+    .drinks-four {
+        margin: 50px;
+        padding: 30px;
+        width: 1000px;
+       height: 600px;
+    
+    }
