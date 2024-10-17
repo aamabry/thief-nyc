@@ -132,14 +132,25 @@ padding: 0;
     padding: 0;
     }
 
-    .drinks-three img {
-        border-radius: 5px;
-    }
+.drinks-three img {
+    border-radius: 5px;
+}
 
-    .drinks-four {
-        margin: 50px;
-        padding: 30px;
-        width: 1000px;
-       height: 600px;
-    
-    }
+.drinks-four {
+    margin: 50px;
+    padding: 30px;
+    width: 1000px;
+    height: 600px;
+}
+
+.faqs-info {
+    margin: 40px 0 40px 0;
+    padding: 0;
+}
+
+.reservations {
+    background: #f7f7f2;
+    margin: 50px;
+    border-radius: 5px;
+}
+
