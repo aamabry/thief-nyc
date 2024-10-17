@@ -2,7 +2,6 @@ body {
     background: black;
     color: aliceblue;
     font-family: 'Capture it', sans-serif;
-
 }
 
 .btn {
@@ -64,6 +63,7 @@ body {
 .buzz-from-the-past {
     color: #ffed00;
     margin: 20px;
+    border: 1px solid black ;
 }
 
 .buzz-from-the-past h1 {
@@ -89,20 +89,21 @@ body {
     padding: 10px;
 }
 
-.faqs {
+.info {
     background-image: url(./miracle-images/faqs-background.png);
-    width: 1116px;
-    height: 627.438px;
+    max-width: 100%;
+    height: auto;
     margin: 20px;
     padding: 70px;
+    border-radius: 2px;
 }
 
-.faqs h1 {
+.info h1 {
     font-size: 55px;
     margin: 0 0 150px;
 }
 
-.faqs button {
+.info button {
     background: black;
     font-size: 18px;
     width: 400px;
@@ -110,21 +111,18 @@ body {
     color: #ffed00;
 }
 
+.drinks img{
+    border-radius: 2px;
+}
+
 .drinks-one {
 margin: 50px;
 padding: 0;
 }
 
-.drinks-one img {
-    border-radius: 5px;
-}
-
 .drinks-two {
     margin: 50px;
     padding: 30px;
-    width: 1000px;
-   height: 600px;
-
 }
 
 .drinks-three {
@@ -139,13 +137,15 @@ padding: 0;
 .drinks-four {
     margin: 50px;
     padding: 30px;
-    width: 1000px;
-    height: 600px;
 }
 
-.faqs-info {
+.faqs {
     margin: 40px 0 40px 0;
     padding: 0;
+}
+
+.recipes img {
+    margin: 20px;
 }
 
 .reservations {

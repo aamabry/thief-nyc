@@ -43,10 +43,17 @@
         </ul>
       </div>
     </div>
-    <div class="container">
-        <header class="miracle-header">
-              <img src="./miracle-images/cropped-window.png" class="img-fluid rounded mx-auto d-block"  >
+    <div class="container-fluid">
+        <header class="miracle-header" id="top">
+              <img src="./miracle-images/cropped-window.png" class="img-fluid rounded mb-4 d-block"  >
         </header>
+        <div class="d-flex justify-content-evenly">
+        <a href="#buzz">Buzz from the past
+        </a>
+        <a href="#faqs">FAQS</a>
+        <a href="#drinks">Drinks</a>
+        <a href="#reservations">Reserve your spot</a>
+        </div>
         <main>
             <div class="container christmas-experience">
             <h1>Experience the ghosts of Christmas</h1>
@@ -65,8 +72,8 @@
         </div>
     </div>
         </div>
-        <div class="container buzz-from-the-past">
-            <div class="container">
+        <div class="container-fluid buzz-from-the-past" id="buzz">
+            <div class="container-fluid">
             <div class="d-flex flex-row justify-content-evenly">
                 <div class="col-2">
             <h1>Buzz from the past</h1>
@@ -85,7 +92,7 @@
             </div> 
             </div>
         </div>
-        <div class="container">
+        <div class="container-fluid">
             <div class="d-flex flex-row justify-content-evenly">
                 <div class="col-2">    
                 <h2>TikTok</h2>
@@ -106,104 +113,125 @@
         </div>
         </div> 
     </div>
-        <div class="faqs container text-center">
+        <div class="info container-fluid text-center">
             <h1>A few things you're gonna want to know</h1>
-        <div class="d-flex justify-content-evenly">
-            <button type="button" class="btn mb-4">This years cocktails</button>       
+        <div class="d-flex flex-row justify-content-between">
+            <button type="button" class="btn mb-4">
+                <a href="#drinks">This years cocktails</a>
+            </button>       
             <button type="button" class="btn">Large party inquiry</button>
         </div>        
-        <div class="d-flex row justify-content-evenly">        
-            <button type="button" class="btn">General FAQ</button>
+        <div class="d-flex flex-row justify-content-between">        
+            <button type="button" class="btn">
+                <a href="#faqs">General FAQ</a></button>
             <button type="button" class="btn">How to book</button>       
         </div>
         </div>
+        <div class="drinks container-fluid" id="drinks">
         <div class="drinks-one container">
-        <div class="d-block flex-row justify-content-envenly">
+        <div class="d-flex flex-row justify-content-envenly">
             <button type="button" class="btn">
-                <img src="./miracle-images/christmapolitan.png" width="500px" height="240px" >
+                <a href="#christmapolitan"><img src="./miracle-images/christmapolitan.png" class="img-fluid" width="500px" height="240px" ></a>
             </button>
             <button type="button" class="btn">
-                <img src="./miracle-images/snowball.png" width="500px" height="240px" >
+                <a href="#snowball"><img src="./miracle-images/snowball.png" class="img-fluid" width="500px" height="240px" ></a>
             </button>
             </div>
             <div class="d-flex flex-row justify-content-envenly">
             <button type="button" class="btn">
-                <img src="./miracle-images/stocking-stuffer.png" width="500px" height="240px" >
+                <a href="#stocking-stuffer"><img src="./miracle-images/stocking-stuffer.png" class="img-fluid" width="500px" height="240px" ></a>
             </button>
             <button type="button" class="btn">
-                <img src="./miracle-images/christmasaurus.png" width="500px" height="240px" >
+                <a href="#christmasaurus"><img src="./miracle-images/christmasaurus.png" class="img-fluid" width="500px" height="240px" ></a>
             </button>
         </div>
     </div>
-    <div class="drinks-two container">
-        <div class="d-flex justify-content-center">
+    <div class="drinks-two container" id="drinks-two">
+        <div class="d-flex flex-row justify-content-center">
             <button type="button" class="btn">
-                <img src="./miracle-images/crooked-antler.png" width="190px">
+                <img src="./miracle-images/crooked-antler.png" class="img-fluid" width="190px"><a href="#crooked-antler"></a>
              </button>
             <button type="button" class="btn">
-                <img src="./miracle-images/santa-slide.png" width="190px">
+                <img src="./miracle-images/santa-slide.png" class="img-fluid" width="190px"><a href="#santa-slide"></a>
             </button>
             <button type="button" class="btn">
-                <img src="./miracle-images/run-reindeer.png" width="190px">
+                <img src="./miracle-images/run-reindeer.png" class="img-fluid" width="190px"><a href="#run-reindeer"></a>
             </button>
             <button type="button" class="btn">
-                <img src="./miracle-images/rudolphs-replacement.png" width="190px">
+                <img src="./miracle-images/rudolphs-replacement.png" class="img-fluid" width="190px"><a href="#rudolphs-replacement"></a>
             </button>
         </div>
         </div>  
         <div class="drinks-three container">
-            <div class="d-block flex-row justify-content-envenly">
+            <div class="d-flex flex-row justify-content-envenly">
                 <button type="button" class="btn">
-                    <img src="./miracle-images/koala.png"  width="500px" height="240px" >
+                    <img src="./miracle-images/koala.png" class="img-fluid" width="500px" height="240px" ><a href="#koala"></a>
                 </button>
                 <button type="button" class="btn">
-                    <img src="./miracle-images/yippie.png" width="500px" height="240px" >
+                    <img src="./miracle-images/yippie.png" class="img-fluid" width="500px" height="240px" ><a href="#yippie"></a>
                 </button>
                 </div>
                 <div class="d-flex flex-row justify-content-envenly">
                 <button type="button" class="btn">
-                    <img src="./miracle-images/jingle-balls.png" width="500px" height="240px" >
+                    <img src="./miracle-images/jingle-balls.png" class="img-fluid" width="500px" height="240px" ><a href="#jingle-balls"></a>
                 </button>
                 <button type="button" class="btn">
-                    <img src="./miracle-images/krampus.png" width="500px" height="240px" >
+                    <img src="./miracle-images/krampus.png" class="img-fluid" width="500px" height="240px" ><a href="#krampus"></a>
                 </button>
             </div>
         </div>
         <div class="drinks-four container">
             <div class="d-flex justify-content-center">
                 <button type="button" class="btn">
-                    <img src="./miracle-images/hot-buttered.png" width="190px" height="400px">
+                    <img src="./miracle-images/hot-buttered.png" class="img-fluid" width="190px" height="400px"><a href="#hot-buttered"></a>
                  </button>
                 <button type="button" class="btn">
-                    <img src="./miracle-images/naughty-nice.png" width="190px" height="400px">
+                    <img src="./miracle-images/naughty-nice.png" class="img-fluid" width="190px" height="400px"><a href="#naughty-nice"></a>
                 </button>
                 <button type="button" class="btn">
-                    <img src="./miracle-images/mulled-wine.png" width="190px" height="400px">
+                    <img src="./miracle-images/mulled-wine.png" class="img-fluid" width="190px" height="400px"><a href="#mulled-wine"></a>
                 </button>
                 <button type="button" class="btn">
-                    <img src="./miracle-images/secret-santa.png" width="190px" height="400px">
+                    <img src="./miracle-images/secret-santa.png" class="img-fluid" width="190px" height="400px"><a href="#secret-santa"></a>
                 </button>
             </div>
             </div>
-            <div class="recipes">
-            <img src="./recipes-images/christmapolitan.png" >
-            <img src="./recipes-images/snowball.png">
-            <img src="./recipes-images/stocking-stuffer.png">
-            <img src="./recipes-images/christmasaurus.png">
-            <img src="./recipes-images/crooked-antler.png">
-            <img src="./recipes-images/santa-slide.png">
-            <img src="./recipes-images/run-reindeer.png">
-            <img src="./recipes-images/rudoplhs-replacement.png">
-            <img src="./recipes-images/koala.png">
-            <img src="./recipes-images/yippie.png">
-            <img src="./recipes-images/jingle-balls.png">
-            <img src="./recipes-images/hot-buttered.png">
-            <img src="./recipes-images/naughty-nice.png">
-            <img src="./recipes-images/mulled-wine.png">
-            <img src="./recipes-images/krampus.png">
-            <img src="./recipes-images/secret-santa.png">
         </div>
-        <div class="faqs-info container">
+            <div class="recipes">
+            <img src="./recipes-images/christmapolitan.png" class="img-fluid" id="christmapolitan">
+            <a href="#drinks">back to top</a>
+            <img src="./recipes-images/snowball.png" class="img-fluid" id="snowball">
+            <a href="#drinks">back to top</a>
+            <img src="./recipes-images/stocking-stuffer.png" class="img-fluid" id="stocking-stuffer">
+            <a href="#drinks">back to top</a>
+            <img src="./recipes-images/christmasaurus.png" class="img-fluid" id="christmasaurus">
+            <a href="#drinks">back to top</a>
+            <img src="./recipes-images/crooked-antler.png" class="img-fluid" id="crooked-antler">
+            <a href="#drinks-two">back to top</a>
+            <img src="./recipes-images/santa-slide.png" class="img-fluid" id="santa-slide">
+            <a href="#drinks-two">back to top</a>
+            <img src="./recipes-images/run-reindeer.png" class="img-fluid" id="run-reindeer">
+            <a href="#drinks-two">back to top</a>
+            <img src="./recipes-images/rudoplhs-replacement.png" class="img-fluid" id="rudoplhs-replacement">
+            <a href="#drinks-two">back to top</a>
+            <img src="./recipes-images/koala.png" class="img-fluid" id="koala">
+            <a href="#drinks-three">back to top</a>
+            <img src="./recipes-images/yippie.png" class="img-fluid" id="yippie">
+            <a href="#drinks-three">back to top</a>
+            <img src="./recipes-images/jingle-balls.png" class="img-fluid" id="jingle-balls">
+            <a href="#drinks-three">back to top</a>
+            <img src="./recipes-images/hot-buttered.png" class="img-fluid" id="hot-buttered">
+            <a href="#drinks">back to top</a>
+            <img src="./recipes-images/naughty-nice.png" class="img-fluid" id="naughty-nice">
+            <a href="#drinks">back to top</a>
+            <img src="./recipes-images/mulled-wine.png" class="img-fluid" id="mulled-wine">
+            <a href="#drinks">back to top</a>
+            <img src="./recipes-images/krampus.png" class="img-fluid" id="krampus">
+            <a href="#drinks">back to top</a>
+            <img src="./recipes-images/secret-santa.png" class="img-fluid" id="secret-santa">
+            <a href="#drinks">back to top</a>
+        </div>
+        <div class="faqs container" id="faqs">
             <div class="row">
                 <div class="col">
             <img src="./miracle-images/faqs.png" class="img-fluid">
@@ -224,7 +252,7 @@
             </div>
         </div>
         </div>
-        <div class="reservations">
+        <div class="reservations" id="reservations">
             <img src="./miracle-images/reserve-spot.png" class="img-fluid">
             </div>
         <div class="dates container mb-5">
