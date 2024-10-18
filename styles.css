@@ -60,40 +60,21 @@ body {
     margin: 200px 0 0 0;
 }
 
-.buzz-from-the-past {
-    color: #ffed00;
-    margin: 20px;
-    border: 1px solid black ;
+.buzz {
+    width: auto;
+    height: auto;
 }
 
-.buzz-from-the-past h1 {
-    margin: 10px ;
-    padding: 10px;
-}
-
-.buzz-from-the-past h2 {
-    font-size: 14px;
-    background: #88A201;
-    width: 200px;
-    height: 200px;
-    margin: 10px ;
-    padding: 10px;
-}
-
-.buzz-from-the-past p {
-    background: black;
-    width: 175px;
-    height: 100px;
-    font-size: 14px;
-    margin: -130px 10px 20px 24px;
-    padding: 10px;
+.buzz-from-the-past a{
+    font-size: 25px;
 }
 
 .info {
     background-image: url(./miracle-images/faqs-background.png);
+    border-radius: 2px;
     max-width: 100%;
     height: auto;
-    margin: 20px;
+    margin: auto;
     padding: 70px;
     border-radius: 2px;
 }
@@ -108,7 +89,13 @@ body {
     font-size: 18px;
     width: 400px;
     height: 100px;
+    margin: 20px;
+}
+
+.info a {
     color: #ffed00;
+    font-size: 18px;
+    text-decoration: none;
 }
 
 .drinks img{
