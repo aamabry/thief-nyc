@@ -2,7 +2,12 @@ body {
     background: black;
     color: aliceblue;
     font-family: 'Capture it', sans-serif;
+
+    
 }
+
+
+
 
 .btn {
     color: aliceblue;
@@ -41,43 +46,27 @@ body {
     padding: 0;
 }
 
-.christmas-experience {
-    text-align: center;
-    color: #f7f7f2;
-
-    margin: 50px 10px 75px;
-    padding: 20px;
+.buzz-header {
+   
 }
 
-.past {
-    margin: 200px 0 0 0;
+.buzz-from-the-past {
+   
 }
 
-.present {
-     margin: 200px 100px 0; 
-}
-.future {
-    margin: 200px 0 0 0;
-}
-
-.buzz {
-    width: auto;
-    height: auto;
-}
-
-.buzz-from-the-past a{
+.buzz-from-the-past a {
     font-size: 25px;
+    background: #ffed00;
+    color: black;
+    text-transform: uppercase;
 }
 
-.info {
-    background-image: url(./miracle-images/faqs-background.png);
-    border-radius: 2px;
-    max-width: 100%;
-    height: auto;
-    margin: auto;
-    padding: 70px;
-    border-radius: 2px;
+.buzz-from-the-past img{
+  
+
 }
+
+
 
 .info h1 {
     font-size: 55px;
@@ -90,6 +79,7 @@ body {
     width: 400px;
     height: 100px;
     margin: 20px;
+    text-transform: uppercase;
 }
 
 .info a {
