@@ -1,28 +1,18 @@
 body {
     background: black;
-    color: aliceblue;
-    font-family: 'Capture it', sans-serif;
-
-    
-}
-
-
-
-
-.btn {
-    color: aliceblue;
-}
-
-.btn-close {
-    background: black;
-    color: white;
 }
 
 .offcanvas {
     background: black;
     transition: all 1s ease-in-out;
     background-image: url("./texture/FW_Folded_Paper_03.png");
-    background-size: 490px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.offcanvas-body {
+    padding: 0;
+    margin: 0 auto;
 }
 
 .offcanvas-body a {
@@ -35,99 +25,55 @@ body {
     list-style: none;
     text-align: center;
     text-transform: uppercase;
+    margin: 50px 20px;
+    padding: 25px;
 }
 
 .offcanvas-body li {
-    margin: 20px;
+    margin: 40px;
 }
 
-.homepage-images {
-    margin: 0 auto;
-    padding: 0;
+.miracle-page{
+    margin: 70px auto;
+    max-width: 80%;
 }
 
-.buzz-header {
+.miracle main {
    
 }
 
-.buzz-from-the-past {
-   
-}
-
-.buzz-from-the-past a {
-    font-size: 25px;
-    background: #ffed00;
-    color: black;
-    text-transform: uppercase;
-}
-
-.buzz-from-the-past img{
-  
-
-}
-
-
-
-.info h1 {
-    font-size: 55px;
-    margin: 0 0 150px;
-}
-
-.info button {
-    background: black;
-    font-size: 18px;
-    width: 400px;
-    height: 100px;
-    margin: 20px;
-    text-transform: uppercase;
-}
-
-.info a {
-    color: #ffed00;
-    font-size: 18px;
-    text-decoration: none;
-}
-
-.drinks img{
-    border-radius: 2px;
+.drinks {
+    margin: 35px;
 }
 
 .drinks-one {
-margin: 50px;
-padding: 0;
+    margin: 34px;
+}
+
+.drinks-one img{
+    margin: 10px;
 }
 
 .drinks-two {
-    margin: 50px;
-    padding: 30px;
+    margin: 34px;
+}
+
+.drinks-two img{
+    margin: 10px;
 }
 
 .drinks-three {
-    margin: 50px;
-    padding: 0;
-    }
+    margin: 34px;
+}
 
-.drinks-three img {
-    border-radius: 5px;
+.drinks-three img{
+    margin: 10px;
 }
 
 .drinks-four {
-    margin: 50px;
-    padding: 30px;
+    margin: 34px;
 }
 
-.faqs {
-    margin: 40px 0 40px 0;
-    padding: 0;
+.drinks-four img{
+    margin: 10px;
 }
-
-.recipes img {
-    margin: 20px;
-}
-
-.reservations {
-    background: #f7f7f2;
-    margin: 50px;
-    border-radius: 5px;
-}
-
