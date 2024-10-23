@@ -82,7 +82,7 @@ body {
 }
 
 .miracle-window {
-    margin: 10px 0 20px 160px;
+    margin: 10px 0 20px -160px;
 }
 
 .experience-ghosts {
@@ -132,7 +132,7 @@ body {
 
 
 .cardboard {
-    margin: -250px 50px -1000px 400px;
+    margin: -250px 50px -1000px -100px;
 }
 
 .drinks-one {
@@ -140,11 +140,11 @@ body {
 }
 
 .drinks-one .top-row {
-    margin: 175px -400px 0 600px;
+    margin: 175px -400px 0 175px;
 }
 
 .drinks-one .bottom-row {
-    margin: 20px -400px 175px 600px;
+    margin: 20px -400px 175px 175px;
 }
 
 .drinks-two {
@@ -375,4 +375,12 @@ body {
 .nav-up-miracle-christmapolitan {
     position: absolute;
     left: 1395px;
+}
+
+.december {
+    text-decoration: none;
+}
+
+.november {
+    text-decoration: none;
 }
