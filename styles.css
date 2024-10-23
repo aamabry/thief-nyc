@@ -3,6 +3,7 @@ body {
 }
 
 .offcanvas {
+    position: fixed;
     background: black;
     transition: all 1s ease-in-out;
     background-image: url("./texture/FW_Folded_Paper_03.png");
@@ -33,9 +34,55 @@ body {
     margin: 40px;
 }
 
+.thick {
+    margin: 30px -150px 0 -105px;
+}
+
+.aye {
+    margin: 0 -150px 0 -105px; 
+}
+
+.menu-background {
+    margin: 0 -200px 0 -250px; 
+    width: 1900px;
+    height: 1000px;
+}
+
+.menu {
+    margin: -1095px -150px 0 -89px;
+}
+
+.menu-buttons {
+    margin: -300px -20px 200px -20px;
+    padding: -20px;
+}
+.peep {
+    margin: 0 40px 0 0;
+}
+
+.deals {
+    margin: 0 0 0 60px;
+}
+ 
+.fed {
+    margin: 0 0 0 150px;
+}
+
+.lets-link {
+    margin: 0 -150px 0 -100px ;
+}
+
+.hours {
+    margin: 0 -150px 0 -100px
+}
+
 .miracle-page{
     margin: 70px auto;
     max-width: 80%;
+}
+
+.miracle-window {
+    margin: 10px 0 20px 160px;
 }
 
 .experience-ghosts {
@@ -72,7 +119,7 @@ body {
 }
 
 .buzz-from-the-past {
-    margin: 40px;
+    margin: 60px 100px 60px 100px;
 }
 
 .buzz {
@@ -85,7 +132,7 @@ body {
 
 
 .cardboard {
-    margin: -250px 50px -1000px -100px;
+    margin: -250px 50px -1000px 400px;
 }
 
 .drinks-one {
@@ -93,11 +140,11 @@ body {
 }
 
 .drinks-one .top-row {
-    margin: 175px -200px 0 200px;
+    margin: 175px -400px 0 600px;
 }
 
 .drinks-one .bottom-row {
-    margin: 20px -200px 175px 200px;
+    margin: 20px -400px 175px 600px;
 }
 
 .drinks-two {
@@ -193,7 +240,8 @@ body {
 }
 
 .book img#dates{
-    margin: 30px 0 30px 150px;
+    margin: 30px 50px 30px 160px;
+    padding: 0 20px;
 }
 .book p {
     text-align: center;
@@ -202,11 +250,129 @@ body {
     text-transform: uppercase;
 }
 
+.rectangle {
+    margin: -200px -20px -300px 90px;
+}
+
+.place-holders {
+    margin: 0 40px 0 30px;
+}
+
 .place-holders img#santas {
     margin: 10px 10px 30px 200px;
+    opacity: 50%;
+    
+    border: 2px solid #FFED00;
 }
 
 .place-holders img#santa-alone {
     margin: 10px 10px 30px 200px;
+    opacity: 50%;
+
+    border: 2px solid #FFED00;
+
 }
 
+.header-image {
+    margin: 0 0 0 -90px;
+}
+
+.john-about-picture {
+    margin: 0 0 0 -90px;
+}
+
+.bio {
+    margin: 0 0 0 -90px;
+}
+
+.our-vision {
+    margin: 0 0 0 -90px;
+}
+
+.inspiration {
+    margin: 0 0 0 -90px;
+}
+
+.our-mission {
+    margin: 0 0 0 -90px;
+}
+
+.the-vibe {
+    margin: 0 0 0 -90px;
+}
+
+.vibe-pictures {
+    margin: 0 0 0 -90px;
+}
+
+.end-pictures {
+    margin: 0 0 60px -90px;
+}
+
+.happy-hour {
+    background: white;
+    margin: 40px 0 40px 250px;
+    width: 750px;
+    height: 2000px;
+    padding: 70px 70px 70px 10px;
+    border-radius: 5px;
+  
+}
+
+.wine-list {
+    margin: 70px 40px 40px 50px;
+    }
+
+.wine-image {
+    border-radius: 20px;
+}
+
+.cocktails {
+    margin: 70px 40px 60px 50px;
+}
+
+.cocktail-menu {
+    border-radius: 20px;
+}
+
+.nav-up-about {
+    position: absolute;
+    left: 1350px;
+    right: 1350px;
+    top: 7650px;
+    bottom: -100px;
+}
+
+.nav-up-menu-1 {
+    position: absolute;
+    left: 1105px;
+    right: 1105px;
+    top: 2065px;
+    bottom: -1500px;
+}
+
+.nav-up-menu-2 {
+    position: absolute;
+    left: 1355px;
+    right: 25px;
+    top: 3625px;
+    bottom: -1000px;
+}
+
+.nav-up-miracle {
+    position: absolute;
+   left: 1395px;
+}
+
+
+.nav-up-miracle-drinks {
+    position: absolute;
+   left: 1395px;
+   top: 5050px;
+  
+}
+
+.nav-up-miracle-christmapolitan {
+    position: absolute;
+    left: 1395px;
+}
