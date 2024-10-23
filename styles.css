@@ -38,42 +38,175 @@ body {
     max-width: 80%;
 }
 
-.miracle main {
-   
+.experience-ghosts {
+    text-align: center;
+    margin: 50px auto;
+}
+
+.experience-ghosts p {
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+.past {
+    padding: 0;
+    margin-top: 30px;
+}
+
+.future {
+    padding: 0;
+    margin-top: 30px;
+}
+
+.x {
+    background: #add8ca;
+    border: solid 5px #FFED00;  
+}
+
+.faqs1 {
+    margin-top: -30px;
+}
+
+.reserve-2024 {
+    margin-top: -15px;
+}
+
+.buzz-from-the-past {
+    margin: 40px;
+}
+
+.buzz {
+    margin: -80px -120px 30px -90px;
 }
 
 .drinks {
-    margin: 35px;
+    margin: 50px;
+}
+
+
+.cardboard {
+    margin: -250px 50px -1000px -100px;
 }
 
 .drinks-one {
-    margin: 34px;
+    margin: 50px;
 }
 
-.drinks-one img{
-    margin: 10px;
+.drinks-one .top-row {
+    margin: 175px -200px 0 200px;
+}
+
+.drinks-one .bottom-row {
+    margin: 20px -200px 175px 200px;
 }
 
 .drinks-two {
-    margin: 34px;
+    margin: 300px 150px 100px;
 }
 
-.drinks-two img{
-    margin: 10px;
+.drinks-three .top-row {
+    margin: 100px 160px 20px;
 }
 
-.drinks-three {
-    margin: 34px;
-}
-
-.drinks-three img{
-    margin: 10px;
+.drinks-three .bottom-row {
+    margin: 0 160px 100px;
 }
 
 .drinks-four {
-    margin: 34px;
+    margin: 50px 150px 100px;
 }
 
-.drinks-four img{
-    margin: 10px;
+.recipes img#christmapolitan {
+    margin: 15px 10px 25px 150px;
 }
+
+.recipes img#snowball {
+    margin: 20px 45px 0 170px;
+}
+
+.recipes img#stocking-stuffer {
+    margin: -15px 20px 20px 155px;
+}
+
+.recipes img#christmasaurus {
+    margin: 15px 50px 25px 145px;
+}
+
+.recipes img#crooked-antler {
+    margin: 15px 50px 25px 140px;
+}
+
+.recipes img#santa-slide {
+    margin: 15px 20px 25px 130px;
+}
+
+.recipes img#run-reindeer {
+    margin: 15px 20px 25px 130px;
+}
+
+.recipes img#rudolphs-replacement{
+    margin: 15px 20px 25px 125px;
+}
+
+.recipes img#koala {
+    margin: 15px 20px 25px 130px;
+}
+
+.recipes img#yippie {
+    margin: 15px 20px 25px 125px;
+}
+
+.recipes img#jingle-balls{
+    margin: 15px 20px 25px 100px;
+}
+
+.recipes img#hot-buttered{
+    margin: 15px 20px 25px 80px;
+}
+
+.recipes img#naughty-nice {
+    margin: 15px 50px 25px 95px;
+}
+
+.recipes img#mulled-wine{
+    margin: 15px 50px 25px 15px;
+}
+
+.recipes img#krampus {
+    margin: 15px 50px 25px 80px;
+}
+
+.recipes img#secret-santa{
+    margin: 15px 20px 25px 10px;
+}
+
+.faqs img#faqs {
+    margin: 30px 0 30px ;
+}
+
+.book {
+    margin: 30px;
+}
+
+.book img#book {
+    margin: 100px 60px 50px 20px;
+}
+
+.book img#dates{
+    margin: 30px 0 30px 150px;
+}
+.book p {
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+.place-holders img#santas {
+    margin: 10px 10px 30px 200px;
+}
+
+.place-holders img#santa-alone {
+    margin: 10px 10px 30px 200px;
+}
+
