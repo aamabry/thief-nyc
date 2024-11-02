@@ -2,14 +2,35 @@ body {
     background: black;
 }
 
+.nav-bar {
+    position: sticky;
+}
+
+.btn {
+    color: #06080c;
+    position: fixed;
+}
+
+.btn:hover {
+    color: #FFED00;
+}
+
+.btn-close {
+    color: #FFED00;
+}
+
+
+
 .offcanvas {
     position: fixed;
-    background: black;
+    background: rgb(0, 0, 0, 0.8);
     transition: all 1s ease-in-out;
     background-image: url("./texture/FW_Folded_Paper_03.png");
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+
 
 .offcanvas-body {
     padding: 0;
@@ -17,9 +38,16 @@ body {
 }
 
 .offcanvas-body a {
+    padding: 10px;
     color: #FFED00;
     font-size: 24px;
     text-decoration: none;
+}
+
+.offcanvas-body a:hover{
+    color: #ffee10;
+    box-shadow: 0 0 5px #ffee10;
+    text-shadow: 0 0 5px #ffee10;
 }
 
 .offcanvas-body ul{
@@ -35,7 +63,7 @@ body {
 }
 
 .thick {
-    margin: 30px -150px 0 -105px;
+    margin: 0 -150px 0 -105px;
 }
 
 .aye {
@@ -384,3 +412,24 @@ body {
 .november {
     text-decoration: none;
 }
+
+
+@media (max-width: 900px) {
+    .offcanvas {
+        position: fixed;
+        background: black;
+        transition: all 1s ease-in-out;
+        background-image: url("./texture/FW_Folded_Paper_03.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+}
+
+
+@media (max-width: 900px) {
+    .thick {
+        max-width: 1600px;
+    }
+}
+
