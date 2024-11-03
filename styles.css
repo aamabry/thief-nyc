@@ -62,348 +62,42 @@ body {
     margin: 40px;
 }
 
-.thick {
-    margin: 0 -150px 0 -105px;
+.container header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+header img{
+  padding: 0;
 }
 
-.aye {
-    margin: 0 -150px 0 -105px; 
+.container main img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.menu-background {
-    margin: 0 -200px 0 -250px; 
-    width: 1900px;
-    height: 1000px;
-}
-
-.menu {
-    margin: -1095px -150px 0 -89px;
-}
-
-.menu-buttons {
-    margin: -300px -20px 200px -20px;
-    padding: -20px;
-}
-.peep {
-    margin: 0 40px 0 0;
-}
-
-.deals {
-    margin: 0 0 0 60px;
-}
- 
-.fed {
-    margin: 0 0 0 150px;
-}
-
-.lets-link {
-    margin: 0 -150px 0 -100px ;
-}
-
-.hours {
-    margin: 0 -150px 0 -100px
-}
-
-.miracle-page{
-    margin: 70px auto;
-    max-width: 80%;
-}
-
-.miracle-window {
-    margin: 10px 0 20px -160px;
-}
-
-.experience-ghosts {
-    text-align: center;
-    margin: 50px auto;
-}
-
-.experience-ghosts p {
-    font-size: 16px;
+.container main a{
+    text-decoration: none;
     text-transform: uppercase;
-}
-
-.past {
-    padding: 0;
-    margin-top: 30px;
-}
-
-.future {
-    padding: 0;
-    margin-top: 30px;
-}
-
-.x {
-    background: #add8ca;
-    border: solid 5px #FFED00;  
-}
-
-.faqs1 {
-    margin-top: -30px;
-}
-
-.reserve-2024 {
-    margin-top: -15px;
-}
-
-.buzz-from-the-past {
-    margin: 60px 100px 60px 100px;
-}
-
-.buzz {
-    margin: -80px -120px 30px -90px;
-}
-
-.drinks {
-    margin: 50px;
-}
-
-
-.cardboard {
-    margin: -250px 50px -1000px -100px;
-}
-
-.drinks-one {
-    margin: 50px;
-}
-
-.drinks-one .top-row {
-    margin: 175px -400px 0 175px;
-}
-
-.drinks-one .bottom-row {
-    margin: 20px -400px 175px 175px;
-}
-
-.drinks-two {
-    margin: 300px 150px 100px;
-}
-
-.drinks-three .top-row {
-    margin: 100px 160px 20px;
-}
-
-.drinks-three .bottom-row {
-    margin: 0 160px 100px;
-}
-
-.drinks-four {
-    margin: 50px 150px 100px;
-}
-
-.recipes img#christmapolitan {
-    margin: 15px 10px 25px 150px;
-}
-
-.recipes img#snowball {
-    margin: 20px 45px 0 170px;
-}
-
-.recipes img#stocking-stuffer {
-    margin: -15px 20px 20px 155px;
-}
-
-.recipes img#christmasaurus {
-    margin: 15px 50px 25px 145px;
-}
-
-.recipes img#crooked-antler {
-    margin: 15px 50px 25px 140px;
-}
-
-.recipes img#santa-slide {
-    margin: 15px 20px 25px 130px;
-}
-
-.recipes img#run-reindeer {
-    margin: 15px 20px 25px 130px;
-}
-
-.recipes img#rudolphs-replacement{
-    margin: 15px 20px 25px 125px;
-}
-
-.recipes img#koala {
-    margin: 15px 20px 25px 130px;
-}
-
-.recipes img#yippie {
-    margin: 15px 20px 25px 125px;
-}
-
-.recipes img#jingle-balls{
-    margin: 15px 20px 25px 100px;
-}
-
-.recipes img#hot-buttered{
-    margin: 15px 20px 25px 80px;
-}
-
-.recipes img#naughty-nice {
-    margin: 15px 50px 25px 95px;
-}
-
-.recipes img#mulled-wine{
-    margin: 15px 50px 25px 15px;
-}
-
-.recipes img#krampus {
-    margin: 15px 50px 25px 80px;
-}
-
-.recipes img#secret-santa{
-    margin: 15px 20px 25px 10px;
-}
-
-.faqs img#faqs {
-    margin: 30px 0 30px ;
-}
-
-.book {
-    margin: 30px;
-}
-
-.book img#book {
-    margin: 100px 60px 50px 20px;
-}
-
-.book img#dates{
-    margin: 30px 50px 30px 160px;
-    padding: 0 20px;
-}
-.book p {
-    text-align: center;
-    color: white;
-    font-size: 20px;
-    text-transform: uppercase;
-}
-
-.rectangle {
-    margin: -200px -20px -300px 90px;
-}
-
-.place-holders {
-    margin: 0 40px 0 30px;
-}
-
-.place-holders img#santas {
-    margin: 10px 10px 30px 200px;
-    opacity: 50%;
-    
-    border: 2px solid #FFED00;
-}
-
-.place-holders img#santa-alone {
-    margin: 10px 10px 30px 200px;
-    opacity: 50%;
-
-    border: 2px solid #FFED00;
-
-}
-
-.header-image {
-    margin: 0 0 0 -90px;
-}
-
-.john-about-picture {
-    margin: 0 0 0 -90px;
-}
-
-.bio {
-    margin: 0 0 0 -90px;
-}
-
-.our-vision {
-    margin: 0 0 0 -90px;
-}
-
-.inspiration {
-    margin: 0 0 0 -90px;
-}
-
-.our-mission {
-    margin: 0 0 0 -90px;
-}
-
-.the-vibe {
-    margin: 0 0 0 -90px;
-}
-
-.vibe-pictures {
-    margin: 0 0 0 -90px;
-}
-
-.end-pictures {
-    margin: 0 0 60px -90px;
+    color: #FFED00;
 }
 
 .happy-hour {
-    background: white;
-    margin: 40px 0 40px 250px;
-    width: 750px;
-    height: 2000px;
-    padding: 70px 70px 70px 10px;
+    background: rgb(203, 203, 203, 0.5);
     border-radius: 5px;
-  
-}
-
-.wine-list {
-    margin: 70px 40px 40px 50px;
-    }
-
-.wine-image {
-    border-radius: 20px;
-}
-
-.cocktails {
-    margin: 70px 40px 60px 50px;
-}
-
-.cocktail-menu {
-    border-radius: 20px;
-}
-
-.nav-up-about {
-    position: absolute;
-    left: 1350px;
-    right: 1350px;
-    top: 7650px;
-    bottom: -100px;
-}
-
-.nav-up-menu-1 {
-    position: absolute;
-    left: 1105px;
-    right: 1105px;
-    top: 2065px;
-    bottom: -1500px;
-}
-
-.nav-up-menu-2 {
-    position: absolute;
-    left: 1355px;
-    right: 25px;
-    top: 3625px;
-    bottom: -1000px;
-}
-
-.nav-up-miracle {
-    position: absolute;
-   left: 1395px;
 }
 
 
-.nav-up-miracle-drinks {
-    position: absolute;
-   left: 1395px;
-   top: 5050px;
-  
+.drinks-one {
+   background: url(./miracle-images/cardboard.png);
+   background-size: 1170px;
+   background-position: center;
+   background-repeat: no-repeat;
 }
 
-.nav-up-miracle-christmapolitan {
-    position: absolute;
-    left: 1395px;
-}
+
 
 .december {
     text-decoration: none;
@@ -413,23 +107,10 @@ body {
     text-decoration: none;
 }
 
-
-@media (max-width: 900px) {
-    .offcanvas {
-        position: fixed;
-        background: black;
-        transition: all 1s ease-in-out;
-        background-image: url("./texture/FW_Folded_Paper_03.png");
-        background-repeat: no-repeat;
-        background-size: cover;
-    }
-    
+.container footer a{
+    text-decoration: none;
+    font-size: 12px;
+    color: #FFED00;
 }
 
-
-@media (max-width: 900px) {
-    .thick {
-        max-width: 1600px;
-    }
-}
 
