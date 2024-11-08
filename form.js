@@ -1,5 +1,5 @@
 
-if ($_SERVER["post"] == "POST") {
+if ($_SERVER["REQUEST_METHOD"] == "POST") {
     // Get POST data
     $name = isset($_POST['name']) ? strip_tags(trim($_POST['name'])) : '';
     $email = isset($_POST['email']) ? trim($_POST['email']) : '';
@@ -11,7 +11,7 @@ if ($_SERVER["post"] == "POST") {
     // If no errors, send email
     if (empty($errors)) {
         // Recipient email address (replace with your own)
-        $recipient = "audrey.mabry90@gmail.com";
+        $recipient = "stephanie@thiefnyc.com";
 
       
     }
