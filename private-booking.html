@@ -54,8 +54,49 @@
             <img src="./private-booking-images/Features.png" class="features img-fluid" width="" alt="">
             <img src="./private-booking-images/events.png" class="img-fluid" alt="">
             <img src="./private-booking-images/food-and-bev.png" class="img-fluid" alt="">
+            <a href="menu.html">
+                <p>Discover our menus</p>
+            </a>
             <img src="./private-booking-images/next-level.png" class="img-fluid" alt="">
-            <img src="./private-booking-images/form.png" class="img-fluid" alt="">
+            <div class="container">
+                <div class="row">
+            <div class="col p-0">
+           <img src="./private-booking-images/form.png" class="img-fluid form" width="" alt="">
+        </div>
+        <div class="col p-0">
+                <form method="post" action="send_email.php" method="post" class="booking-form">
+                    <div class="booking">
+                    <label for="name">First & Last name</label>
+                    <br />
+                        <input type="text" name="name" id="name" required/>
+                    <br />
+                    <label for="email">Email & phone number</label>
+                    <br />
+                        <input type="text" name="email" id="email" required/>
+                        <br />
+                    <label for="occasion">Type of occasion?</label>
+                    <br />
+                        <input type="text" name="occasion" id="occasion" required/>
+                        <br />
+                    <label for="date">Preferred date & time frame?</label>
+                    <br />
+                        <input type="text" name="date" id="date" required/>
+                        <br />
+                    <label for="guests">Estimated number of guests?</label>
+                    <br />
+                        <input type="text" name="guests" id="guests" required/>
+                        <br />
+                    <label for="requests">Any other notes or special requests?</label>
+                    <br />
+                        <input type="text" name="requests" aria-rowcount="3" id="requests" required/>
+                        <br />
+                        <br />
+                        <input type="submit" value="SEND"/>
+                    </div>
+                </form>
+            </div>
+            </div>
+            </div>
             <img src="./private-booking-images/Contact.png" class="contact img-fluid" width="" alt="">
         </main>
     </div>

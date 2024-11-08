@@ -7,7 +7,7 @@ body {
 }
 
 .btn {
-    color: #06080c;
+    color: rgb(255, 237, 0, 0.5);
     position: fixed;
 }
 
@@ -35,6 +35,7 @@ body {
 .offcanvas-body {
     padding: 0;
     margin: 0 auto;
+    
 }
 
 .offcanvas-body a {
@@ -87,7 +88,6 @@ header img{
 
 .happy-hour {
     background: rgb(203, 203, 203, 0.5);
-    border-radius: 5px;
 }
 
 .drinks {
@@ -130,6 +130,35 @@ header img{
     font-size: 18px;
     text-transform: uppercase;
     text-decoration: none;
+}
+
+.form {
+    background: #FFED00;
+}
+
+.booking-form {
+    background: url(./private-booking-images/form-background.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.booking {
+    color: #f3f4e7;
+    font-size: 15px;
+    text-transform: uppercase;
+    width: 468px;
+    height: 527px;
+    padding: 30px 0 0 30px;
+}
+
+label {
+    margin: 5px;
+}
+
+input {
+    background: #FFED00;
+    width: 80%;
 }
 
 @media (max-width: 900px) {
